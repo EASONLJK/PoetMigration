@@ -35,7 +35,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # 4、输入git commit -m ‘update’ 更新项目
 
-# 5、输入git push 提交到github
+# 5、输入git push -u oringin main 提交到github main分支
 
 # 6、打开GitHub查看是否成功
 
