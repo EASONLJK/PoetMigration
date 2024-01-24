@@ -1,4 +1,4 @@
-# colleges
+# poetMigration
 
 ## Project setup
 ```
@@ -18,39 +18,25 @@ yarn build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-# algorithm
+# github到本地
 
 # 1、在GitHub上修改完后记得保存
 
-# 2、进入你本地建立的文件夹，右键
-```
-git bash here
-```
-# 3、输入pwd确认位置后，输入
-```
-git pull origin
-```
-# 4、查看本地是否更新成功
+# 2、输入pwd确认位置后，输入git pull origin
 
+# 3、查看本地是否更新成功
 
-# 1、更改本地文件
+# 本地到github
+# 1、git init 初始化本地项目
 
-# 2、在本地文件夹下右键
-```
-git bash here，
-```
-# 3、输入pwd确认位置
+# 2、git remote add origin+你远程仓库的地址 链接远程仓库
 
-# 4、输入
-```
-git add .
-```
-# 5、输入
-```
-git commit -m ‘update’
-```
-# 、输入
-```
-git push
-```
-# 、打开GitHub查看是否成功
+# 3、输入git add . 提交整个项目
+
+# 4、输入git commit -m ‘update’ 更新项目
+
+# 5、输入git push 提交到github
+
+# 6、打开GitHub查看是否成功
+
+# 如果git push 不成功 使用git push -f origin main
